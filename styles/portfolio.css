@@ -77,15 +77,22 @@
     margin-bottom: -5px;
 }
 
-nav a {
+.nav a {
     text-decoration: none;
     color: rgb(99, 97, 97);
 }
 
-nav li {
+.nav-li {
     list-style: none;
     display: inline;
     margin: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(99, 97, 97);
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
 }
 
 
